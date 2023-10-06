@@ -29,8 +29,14 @@ jobs:
         python -m pip install --upgrade pip
         python -m pip install flake8 black
         pip install -r requirements.txt
+        pip install flake8-alphabetize
+        pip install pep8-naming
+        pip install flake8-quotes
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names
         flake8 . --count --show-source --statistics
         black .
+        flake8-alphabetize .
+        pep8-naming .
+        flake8-quotes .
