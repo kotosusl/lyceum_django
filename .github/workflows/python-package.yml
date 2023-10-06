@@ -37,6 +37,3 @@ jobs:
         # stop the build if there are Python syntax errors or undefined names
         flake8 . --count --show-source --statistics
         black .
-        flake8-alphabetize .
-        pep8-naming .
-        flake8-quotes .
