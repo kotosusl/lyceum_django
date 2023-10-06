@@ -11,3 +11,5 @@ python3 manage.py runserver
 python manage.py runserver
 
 После этого переходите в браузер и вводите адрес 127.0.0.1:8000
+
+[![Python package](https://github.com/kotosusl/lyceum_django/actions/workflows/python-package.yml/badge.svg)](https://github.com/kotosusl/lyceum_django/actions/workflows/python-package.yml)
